@@ -5,17 +5,28 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, user-scalable=no,
  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<link rel="icon" href="/caishou.ico?" type="image/x-icon">
-		<link rel="shortcut icon" href="/caishou.ico?" type="image/x-icon">
+		<link rel="icon" href="caishou.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="caishou.ico" type="image/x-icon">
 		<style type='text/css'>
 			body{
 				background-color: #e2dee2
 			}
-		
-			#welcome{
+
+			#welcome, #versions, #download{
 				text-align: center
 			}
-			
+
+			#download a{
+				line-height: 25px;
+				color: #000;
+				text-decoration:none
+			}
+
+			#download a:hover{
+				color: #009688;
+				text-decoration:underline
+			}
+
 			.g-demo{
 				height: 191px;
 				width: 309px;
@@ -126,29 +137,35 @@
 		</style>
 	</head>
 	<body class="body">
-			<div id="main">
-				<div id='welcome'>
-					<h1 >HELLO! WELCOME TO HERE!</h1>
-					<h2>内容制作中...</h2>
-				</div>
-				<div class="g-demo">
-					<div class="g-container">
-						<div class="g-group">
-							<div class="item item-right"></div>
-							<div class="item item-left"></div>   
-							<div class="item item-top"></div>
-							<div class="item item-bottom"></div> 
-							<div class="item item-middle"></div>    
-						</div>
-						<div class="g-group">
-							<div class="item item-right"></div>
-							<div class="item item-left"></div>   
-							<div class="item item-top"></div>
-							<div class="item item-bottom"></div>   
-							<div class="item item-middle"></div>    
-						</div>
+		<div id="main">
+			<div id='welcome'>
+				<h1 >HELLO! WELCOME TO HERE!</h1>
+				<h2>彩手鼠标宏</h2>
+			</div>
+			<div id='versions'>
+				<h3>版本:1.0</h3>
+			</div>
+			<div id='download'>
+				<h3><a href='https://112-46-85-116.d.123pan.cn:30443/123-521/40315d4c/1647069-0/40315d4c33fc2a31dbca04ba05970a09?v=1&t=1641804578&s=6337b68f94c5ee36e2f41498d1914877&filename=HJYS.exe&d=2d151589' target="_blank">点击下载</a></h3>
+			</div>
+			<div class="g-demo">
+				<div class="g-container">
+					<div class="g-group">
+						<div class="item item-right"></div>
+						<div class="item item-left"></div>
+						<div class="item item-top"></div>
+						<div class="item item-bottom"></div>
+						<div class="item item-middle"></div>
+					</div>
+					<div class="g-group">
+						<div class="item item-right"></div>
+						<div class="item item-left"></div>
+						<div class="item item-top"></div>
+						<div class="item item-bottom"></div>
+						<div class="item item-middle"></div>
 					</div>
 				</div>
 			</div>
+		</div>
 	</body>
 </html>
