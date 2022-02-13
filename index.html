@@ -12,19 +12,82 @@
 				background-color: #e2dee2
 			}
 
-			#welcome, #versions, #download{
+			#welcome, #versions, #download, #history h3, h4{
 				text-align: center
 			}
 
 			#download a{
-				line-height: 25px;
-				color: #000;
+				line-height: 36px;
+				color: #0c1d96;
 				text-decoration:none
 			}
 
 			#download a:hover{
 				color: #009688;
 				text-decoration:underline
+			}
+
+			#history h3{
+				margin-top:72px;
+			}
+
+			#history span{
+				font:normal 16px/36px '微软雅黑';
+				text-align:left;
+			}
+			<!-- #updata_content{ -->
+				<!-- margin-left:calc(38%); -->
+			<!-- } -->
+
+			#history_versions_download{
+				text-align: center;
+			}
+
+			#history_versions_download a{
+				color:#0c1d96;
+				text-decoration:none;
+				line-height: 36px;
+			}
+
+			#history_versions_download a:hover{
+				color: #009688;
+				text-decoration:underline
+			}
+
+			@media (max-width:1920px){
+				#updata_content{margin-left:38%}
+			}
+
+			@media (max-width:1600px){
+				#updata_content{margin-left:36%}
+			}
+
+			@media (max-width:1440px){
+				#updata_content{margin-left:34%}
+			}
+
+			@media (max-width:1280px){
+				#updata_content{margin-left:33%}
+			}
+
+			@media (max-width:992px){
+				#updata_content{margin-left:28%}
+			}
+
+			@media (max-width:768px){
+				#updata_content{margin-left:20%}
+			}
+
+			@media (max-width:590px){
+				#updata_content{margin-left:12%}
+			}
+
+			@media (max-width:480px){
+				#updata_content{margin-left:5%}
+			}
+
+			@media (min-width: 0px) and (max-width: 480px){
+				#updata_content{margin-left:0%}
 			}
 
 			.g-demo{
@@ -163,6 +226,135 @@
 						<div class="item item-top"></div>
 						<div class="item item-bottom"></div>
 						<div class="item item-middle"></div>
+					</div>
+				</div>
+			</div>
+			<div id='history'>
+				<h3>版本历史</h3>
+				<div id='v1.08'>
+					<h4>====================================</h4>
+					<h4>版本号：1.08</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-zZsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.2.12</span><br />
+						<span>更新说明：</span><br />
+						<span>1.减小了音效音量，减少了音效触发，增加了音效开关</span><br />
+						<span>2.修复了在绝地求生部分场景下，不能自动关闭宏的bug</span><br />
+						<span>3.加快了绝地求生自动识别的速度</span><br />
+						<span>4.优化了绝地求生血雾追踪功能</span><br />
+						<span>5.增强了绝地求生左右修正功能</span><br />
+						<span>6.增加了连点器功能</span><br />
+					</div>
+				</div>
+				<div id='v1.07'>
+					<h4>====================================</h4>
+					<h4>版本号：1.07</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-1ZsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.2.8</span><br />
+						<span>更新说明：</span><br />
+						<span>1.增加了宏开关音效</span><br />
+						<span>2.增加了绝地求生识别完毕音效</span><br />
+						<span>3.修复了绝地求生左右修正功能</span><br />
+						<span>4.增强了绝地求生血雾追踪功能</span><br />
+					</div>
+				</div>
+				<div id='v1.06'>
+					<h4>====================================</h4>
+					<h4>版本号：1.06</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-kZsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.2.6</span><br />
+						<span>更新说明：</span><br />
+						<span>1.优化了键盘按键监听线程</span><br />
+						<span>2.优化了绝地求生左右修正功能</span><br />
+						<span>3.优化了绝地求生默认射击、腰射时的压枪逻辑</span><br />
+						<span>4.优化了绝地求生BerylM762的压枪逻辑</span><br />
+						<span>5.增加了绝地求生繁体中文识别功能</span><br />
+						<span>6.增加了绝地求生血雾追踪功能</span><br />
+					</div>
+				</div>
+				<div id='v1.05'>
+					<h4>====================================</h4>
+					<h4>版本号：1.05</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-3ZsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.2.4</span><br />
+						<span>更新说明：</span><br />
+						<span>1.优化了快速舔包、一键舔包的速度</span><br />
+						<span>2.增加了绝地求生左右修正功能</span><br />
+					</div>
+				</div>
+				<div id='v1.04'>
+					<h4>====================================</h4>
+					<h4>版本号：1.04</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-TZsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.2.2</span><br />
+						<span>更新说明：</span><br />
+						<span>1.修复了在某些情况下，软件会出现卡死的bug</span><br />
+						<span>2.解决了在某些情况下，绝地求生配件识别失败的问题</span><br />
+					</div>
+				</div>
+				<div id='v1.03'>
+					<h4>====================================</h4>
+					<h4>版本号：1.03</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-VbsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.1.31</span><br />
+						<span>更新说明：</span><br />
+						<span>1.增加绝地求生一键舔包功能</span><br />
+						<span>2.修改了部分提示的内容</span><br />
+						<span>3.修复了在绝地求生部分场景下不能自动停止压枪的bug</span><br />
+					</div>
+				</div>
+				<div id='v1.02'>
+					<h4>====================================</h4>
+					<h4>版本号：1.02</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-KbsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.1.30</span><br />
+						<span>更新说明：</span><br />
+						<span>1.增加绝地求生快速舔包功能</span><br />
+						<span>2.修复状态栏毫秒数有时显示超长数字的bug</span><br />
+					</div>
+				</div>
+				<div id='v1.01'>
+					<h4>====================================</h4>
+					<h4>版本号：1.01</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-DbsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.1.29</span><br />
+						<span>更新说明：</span><br />
+						<span>1.优化在绝地求生团队竞技时，自动识别是否压枪环境</span><br />
+					</div>
+				</div>
+				<div id='v1.0'>
+					<h4>====================================</h4>
+					<h4>版本号：1.0</h4>
+					<div id='history_versions_download'>
+						<a href='https://www.123pan.com/s/rX5A-sbsRh' target="_blank">下载该版本</a>
+					</div>
+					<div id='updata_content'>
+						<span>发布日期：2022.1.27</span><br />
+						<span>更新说明：</span><br />
+						<span>1.首次发布</span><br />
 					</div>
 				</div>
 			</div>
